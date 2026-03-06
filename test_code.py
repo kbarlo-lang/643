@@ -2,6 +2,7 @@ import pandas as pd
 
 def something():
     df = pd.DataFrame()
+    some_other_stuff = "This is incorrect"
     return df
 
 def something_else():
@@ -14,7 +15,9 @@ def something_else():
     else:
         print("want to see just for testing")
         print("temp is less or equal to 50")
+    
 
     
+
 
 something_else()
